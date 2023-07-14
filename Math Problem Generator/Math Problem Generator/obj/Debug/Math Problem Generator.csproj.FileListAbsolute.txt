@@ -1,0 +1,32 @@
+C:\Users\User\source\repos\Math Problem Generator\Math Problem Generator\bin\Debug\Math Problem Generator.exe.config
+C:\Users\User\source\repos\Math Problem Generator\Math Problem Generator\bin\Debug\Math Problem Generator.exe
+C:\Users\User\source\repos\Math Problem Generator\Math Problem Generator\bin\Debug\Math Problem Generator.pdb
+C:\Users\User\source\repos\Math Problem Generator\Math Problem Generator\obj\Debug\Math Problem Generator.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Math Problem Generator\Math Problem Generator\obj\Debug\Math Problem Generator.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\Math Problem Generator\Math Problem Generator\obj\Debug\MainWindow.g.cs
+C:\Users\User\source\repos\Math Problem Generator\Math Problem Generator\obj\Debug\App.g.cs
+C:\Users\User\source\repos\Math Problem Generator\Math Problem Generator\obj\Debug\Math Problem Generator_MarkupCompile.cache
+C:\Users\User\source\repos\Math Problem Generator\Math Problem Generator\obj\Debug\Math Problem Generator_MarkupCompile.lref
+C:\Users\User\source\repos\Math Problem Generator\Math Problem Generator\obj\Debug\MainWindow.baml
+C:\Users\User\source\repos\Math Problem Generator\Math Problem Generator\obj\Debug\Math Problem Generator.g.resources
+C:\Users\User\source\repos\Math Problem Generator\Math Problem Generator\obj\Debug\Math_Problem_Generator.Properties.Resources.resources
+C:\Users\User\source\repos\Math Problem Generator\Math Problem Generator\obj\Debug\Math Problem Generator.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Math Problem Generator\Math Problem Generator\obj\Debug\Math Problem Generator.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Math Problem Generator\Math Problem Generator\obj\Debug\Math Problem Generator.exe
+C:\Users\User\source\repos\Math Problem Generator\Math Problem Generator\obj\Debug\Math Problem Generator.pdb
+C:\YHWH\Projects\Math Problem Generator\Math Problem Generator\bin\Debug\Math Problem Generator.exe.config
+C:\YHWH\Projects\Math Problem Generator\Math Problem Generator\bin\Debug\Math Problem Generator.exe
+C:\YHWH\Projects\Math Problem Generator\Math Problem Generator\bin\Debug\Math Problem Generator.pdb
+C:\YHWH\Projects\Math Problem Generator\Math Problem Generator\obj\Debug\Math Problem Generator.csproj.AssemblyReference.cache
+C:\YHWH\Projects\Math Problem Generator\Math Problem Generator\obj\Debug\Math Problem Generator.csproj.SuggestedBindingRedirects.cache
+C:\YHWH\Projects\Math Problem Generator\Math Problem Generator\obj\Debug\MainWindow.g.cs
+C:\YHWH\Projects\Math Problem Generator\Math Problem Generator\obj\Debug\App.g.cs
+C:\YHWH\Projects\Math Problem Generator\Math Problem Generator\obj\Debug\Math Problem Generator_MarkupCompile.cache
+C:\YHWH\Projects\Math Problem Generator\Math Problem Generator\obj\Debug\Math Problem Generator_MarkupCompile.lref
+C:\YHWH\Projects\Math Problem Generator\Math Problem Generator\obj\Debug\MainWindow.baml
+C:\YHWH\Projects\Math Problem Generator\Math Problem Generator\obj\Debug\Math Problem Generator.g.resources
+C:\YHWH\Projects\Math Problem Generator\Math Problem Generator\obj\Debug\Math_Problem_Generator.Properties.Resources.resources
+C:\YHWH\Projects\Math Problem Generator\Math Problem Generator\obj\Debug\Math Problem Generator.csproj.GenerateResource.cache
+C:\YHWH\Projects\Math Problem Generator\Math Problem Generator\obj\Debug\Math Problem Generator.csproj.CoreCompileInputs.cache
+C:\YHWH\Projects\Math Problem Generator\Math Problem Generator\obj\Debug\Math Problem Generator.exe
+C:\YHWH\Projects\Math Problem Generator\Math Problem Generator\obj\Debug\Math Problem Generator.pdb

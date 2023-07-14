@@ -1,0 +1,76 @@
+﻿<Window x:Class="Math_Problem_Generator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Math_Problem_Generator"
+        mc:Ignorable="d"
+        ResizeMode="CanMinimize"
+        KeyDown="Window_KeyDown"
+        Title="Problem Generator" Height="720" Width="1080" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Pictures/Background.jpg"/>
+        </Grid.Background>
+        <Border Width="486" CornerRadius="3" Height="356" Background="Black">
+            <Canvas Width="480" Height="350" Background="#FFF9F9F9">
+                <TextBlock TextAlignment="Center" FontSize="49" TextWrapping="Wrap" Height="132" Width="350" HorizontalAlignment="Center" Canvas.Top="35" VerticalAlignment="Top" Canvas.Left="68" FontFamily="Arial Black" Foreground="#FF00296B" > Problem Generator</TextBlock>
+                <Button Click="Subtraction_click" BorderThickness="1" Content="Subtraction" FontSize="20" FontFamily="Arial Black" Foreground="White" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Canvas.Top="181" VerticalAlignment="Top" Height="56" Width="210" Canvas.Left="245">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Pictures\button.png"/>
+                    </Button.Background>
+                </Button>
+                <Button Margin="566,468,134,125" BorderThickness="0">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Pictures\button.png"/>
+                    </Button.Background>
+                </Button>
+                <Button Click="Addition_click" BorderThickness="1" Content="Addition" FontSize="20" FontFamily="Arial Black" Foreground="White" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Canvas.Top="181" Height="56" Width="210" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Left="24">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Pictures\button.png"/>
+                    </Button.Background>
+                </Button>
+                <Button Click="Multiplication_click" BorderThickness="1" Content="Multiplication" FontSize="20" FontFamily="Arial Black" Foreground="White" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Canvas.Top="257" VerticalAlignment="Top" Height="56" Width="210" Canvas.Left="24" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Pictures\button.png"/>
+                    </Button.Background>
+                </Button>
+                <Button Click="Division_click" BorderThickness="1" Content="Division" FontSize="20" FontFamily="Arial Black" Foreground="White" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Canvas.Top="257" VerticalAlignment="Top" Height="56" Width="210" Canvas.Left="245" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Pictures\button.png"/>
+                    </Button.Background>
+                </Button>
+            </Canvas>
+        </Border>
+        <Grid x:Name="QuestionsMenu" Visibility="Hidden" Background="White" >
+            <Label x:Name="QuestionLabel" Margin="290,264,310,335" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Content="3+1=?" FontSize="34"/>
+            <Label x:Name="ScoreLabel" Margin="295,94,305,505" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Content="Score: 0" FontSize="34"/>
+            <Label x:Name="QuestionCount" Background="#FF101096" Content="QUESTION 1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="30" Margin="0,10,0,600" Foreground="White" FontFamily="Yu Gothic UI Semibold"></Label>
+            <TextBox x:Name="AnswerTextbox" Margin="290,374,340,247" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="30" PreviewTextInput="NumberValidationTextBox"/>
+            <Button Margin="731,374,259,247" BorderThickness="1" Click="Answer_click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Pictures\arrow.png"/>
+                </Button.Background>
+            </Button>
+        </Grid>
+        <Grid x:Name="EndGameMenu"
+              Visibility="Hidden">
+            <Border Width="500" CornerRadius="3" Height="400" Background="#370046">
+                <Canvas Width="495" Height="395" Background="White">
+                    <Label x:Name="EndScore" Height="74" Width="350" Canvas.Left="70" Canvas.Top="194" HorizontalAlignment="Left" VerticalAlignment="Center" Content="Score: 2" FontSize="44" FontFamily="Segoe UI Black" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" RenderTransformOrigin="0.495,0.166" FontWeight="Bold" Foreground="#FF131313"/>
+                    <Label Height="111" Width="350" Canvas.Left="72" Canvas.Top="65" HorizontalAlignment="Center" VerticalAlignment="Top" Content="GAME OVER" FontSize="47" FontFamily="Segoe UI Black" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" RenderTransformOrigin="0.495,0.166" FontWeight="Bold" Foreground="#FF131313"/>
+                    <Button Click="PlayAgain_Click" Height="50" Width="200" Canvas.Left="31" Canvas.Top="316" HorizontalAlignment="Center" VerticalAlignment="Top" Content="Play Again" FontSize="26" Foreground="#FF272727" FontFamily="Arial Black" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" RenderTransformOrigin="2.099,0.322">
+                        <Button.Background>
+                            <ImageBrush ImageSource="Pictures/InGameButton.png"></ImageBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button Click="Done_Click" Height="50" Width="200" Canvas.Left="263" Canvas.Top="316" HorizontalAlignment="Center" VerticalAlignment="Top" Content="Done" FontSize="26" Foreground="#FF212121" FontFamily="Arial Black" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" RenderTransformOrigin="2.099,0.322">
+                        <Button.Background>
+                            <ImageBrush ImageSource="Pictures/InGameButton.png"></ImageBrush>
+                        </Button.Background>
+                    </Button>
+                </Canvas>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>
