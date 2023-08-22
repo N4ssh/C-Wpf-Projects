@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Chemical_Equations"
         mc:Ignorable="d"
-        Title="Chemical Equations" Height="800" Width="1340" WindowStartupLocation="CenterScreen">
+        Title="Chemical Equations" Height="800" Width="1340" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Grid Background="#FFFFF2B6">
         <Grid.RowDefinitions>
             <RowDefinition Height="230"/>
