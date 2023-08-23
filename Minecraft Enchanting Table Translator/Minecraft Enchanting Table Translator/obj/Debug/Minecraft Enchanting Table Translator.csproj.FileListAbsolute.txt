@@ -1,0 +1,30 @@
+C:\Users\User\source\repos\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\bin\Debug\Minecraft Enchanting Table Translator.exe.config
+C:\Users\User\source\repos\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\bin\Debug\Minecraft Enchanting Table Translator.exe
+C:\Users\User\source\repos\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\bin\Debug\Minecraft Enchanting Table Translator.pdb
+C:\Users\User\source\repos\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\obj\Debug\Minecraft Enchanting Table Translator.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\obj\Debug\MainWindow.g.cs
+C:\Users\User\source\repos\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\obj\Debug\App.g.cs
+C:\Users\User\source\repos\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\obj\Debug\Minecraft Enchanting Table Translator_MarkupCompile.cache
+C:\Users\User\source\repos\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\obj\Debug\Minecraft Enchanting Table Translator_MarkupCompile.lref
+C:\Users\User\source\repos\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\obj\Debug\MainWindow.baml
+C:\Users\User\source\repos\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\obj\Debug\Minecraft Enchanting Table Translator.g.resources
+C:\Users\User\source\repos\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\obj\Debug\Minecraft_Enchanting_Table_Translator.Properties.Resources.resources
+C:\Users\User\source\repos\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\obj\Debug\Minecraft Enchanting Table Translator.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\obj\Debug\Minecraft Enchanting Table Translator.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\obj\Debug\Minecraft Enchanting Table Translator.exe
+C:\Users\User\source\repos\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\obj\Debug\Minecraft Enchanting Table Translator.pdb
+C:\YHWH\Projects\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\bin\Debug\Minecraft Enchanting Table Translator.exe.config
+C:\YHWH\Projects\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\bin\Debug\Minecraft Enchanting Table Translator.exe
+C:\YHWH\Projects\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\bin\Debug\Minecraft Enchanting Table Translator.pdb
+C:\YHWH\Projects\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\obj\Debug\Minecraft Enchanting Table Translator.csproj.AssemblyReference.cache
+C:\YHWH\Projects\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\obj\Debug\MainWindow.g.cs
+C:\YHWH\Projects\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\obj\Debug\App.g.cs
+C:\YHWH\Projects\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\obj\Debug\Minecraft Enchanting Table Translator_MarkupCompile.cache
+C:\YHWH\Projects\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\obj\Debug\Minecraft Enchanting Table Translator_MarkupCompile.lref
+C:\YHWH\Projects\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\obj\Debug\MainWindow.baml
+C:\YHWH\Projects\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\obj\Debug\Minecraft Enchanting Table Translator.g.resources
+C:\YHWH\Projects\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\obj\Debug\Minecraft_Enchanting_Table_Translator.Properties.Resources.resources
+C:\YHWH\Projects\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\obj\Debug\Minecraft Enchanting Table Translator.csproj.GenerateResource.cache
+C:\YHWH\Projects\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\obj\Debug\Minecraft Enchanting Table Translator.csproj.CoreCompileInputs.cache
+C:\YHWH\Projects\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\obj\Debug\Minecraft Enchanting Table Translator.exe
+C:\YHWH\Projects\Minecraft Enchanting Table Translator\Minecraft Enchanting Table Translator\obj\Debug\Minecraft Enchanting Table Translator.pdb
