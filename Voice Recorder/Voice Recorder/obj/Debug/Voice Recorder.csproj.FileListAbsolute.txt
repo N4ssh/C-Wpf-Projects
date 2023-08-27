@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\Voice Recorder\Voice Recorder\bin\Debug\Voice Recorder.exe.config
+C:\Users\User\source\repos\Voice Recorder\Voice Recorder\bin\Debug\Voice Recorder.exe
+C:\Users\User\source\repos\Voice Recorder\Voice Recorder\bin\Debug\Voice Recorder.pdb
+C:\Users\User\source\repos\Voice Recorder\Voice Recorder\obj\Debug\Voice Recorder.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Voice Recorder\Voice Recorder\obj\Debug\MainWindow.g.cs
+C:\Users\User\source\repos\Voice Recorder\Voice Recorder\obj\Debug\App.g.cs
+C:\Users\User\source\repos\Voice Recorder\Voice Recorder\obj\Debug\Voice Recorder_MarkupCompile.cache
+C:\Users\User\source\repos\Voice Recorder\Voice Recorder\obj\Debug\Voice Recorder_MarkupCompile.lref
+C:\Users\User\source\repos\Voice Recorder\Voice Recorder\obj\Debug\MainWindow.baml
+C:\Users\User\source\repos\Voice Recorder\Voice Recorder\obj\Debug\Voice Recorder.g.resources
+C:\Users\User\source\repos\Voice Recorder\Voice Recorder\obj\Debug\Voice_Recorder.Properties.Resources.resources
+C:\Users\User\source\repos\Voice Recorder\Voice Recorder\obj\Debug\Voice Recorder.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Voice Recorder\Voice Recorder\obj\Debug\Voice Recorder.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Voice Recorder\Voice Recorder\obj\Debug\Voice Recorder.exe
+C:\Users\User\source\repos\Voice Recorder\Voice Recorder\obj\Debug\Voice Recorder.pdb
