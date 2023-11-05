@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\Ideal Weight Calculator\Ideal Weight Calculator\bin\Debug\Ideal Weight Calculator.exe.config
+C:\Users\User\source\repos\Ideal Weight Calculator\Ideal Weight Calculator\bin\Debug\Ideal Weight Calculator.exe
+C:\Users\User\source\repos\Ideal Weight Calculator\Ideal Weight Calculator\bin\Debug\Ideal Weight Calculator.pdb
+C:\Users\User\source\repos\Ideal Weight Calculator\Ideal Weight Calculator\obj\Debug\Ideal Weight Calculator.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Ideal Weight Calculator\Ideal Weight Calculator\obj\Debug\MainWindow.g.cs
+C:\Users\User\source\repos\Ideal Weight Calculator\Ideal Weight Calculator\obj\Debug\App.g.cs
+C:\Users\User\source\repos\Ideal Weight Calculator\Ideal Weight Calculator\obj\Debug\Ideal Weight Calculator_MarkupCompile.cache
+C:\Users\User\source\repos\Ideal Weight Calculator\Ideal Weight Calculator\obj\Debug\Ideal Weight Calculator_MarkupCompile.lref
+C:\Users\User\source\repos\Ideal Weight Calculator\Ideal Weight Calculator\obj\Debug\MainWindow.baml
+C:\Users\User\source\repos\Ideal Weight Calculator\Ideal Weight Calculator\obj\Debug\Ideal Weight Calculator.g.resources
+C:\Users\User\source\repos\Ideal Weight Calculator\Ideal Weight Calculator\obj\Debug\Ideal_Weight_Calculator.Properties.Resources.resources
+C:\Users\User\source\repos\Ideal Weight Calculator\Ideal Weight Calculator\obj\Debug\Ideal Weight Calculator.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Ideal Weight Calculator\Ideal Weight Calculator\obj\Debug\Ideal Weight Calculator.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Ideal Weight Calculator\Ideal Weight Calculator\obj\Debug\Ideal Weight Calculator.exe
+C:\Users\User\source\repos\Ideal Weight Calculator\Ideal Weight Calculator\obj\Debug\Ideal Weight Calculator.pdb

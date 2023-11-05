@@ -1,0 +1,138 @@
+﻿<Window x:Class="Ideal_Weight_Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ideal_Weight_Calculator"
+        mc:Ignorable="d"
+        Title="Ideal Weight" Height="400" Width="850" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TabControl Grid.Column="0">
+            <TabItem Header="US Units" FontSize="18">
+                <Grid Background="#eeeeee">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="80"/>
+                        <RowDefinition Height="65"/>
+                        <RowDefinition Height="80"/>
+                        <RowDefinition Height="100" />
+                    </Grid.RowDefinitions>
+                    
+                    <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Label Content="Age" FontSize="24" Margin="5 0 15 0" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                        <TextBox x:Name="Age_TextBox_US" PreviewTextInput="NumberValidationTextBox" Margin="0 7 0 0" Width="190" Height="34" VerticalAlignment="Center" HorizontalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="20"/>
+                        <Label Content="ages 2 - 80" FontSize="24" Margin="7 0 0 0" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Label Content="Gender" FontSize="24" Margin="-58 0 28 0" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                        <Button Click="Gen1_Male_Click" Height="34" Width="34" Margin="0 6 0 0">
+                            <Button.Background>
+                                <ImageBrush x:Name="gen1_image1" ImageSource="Pictures\Checkbox1.png"></ImageBrush>
+                            </Button.Background>
+                        </Button>
+                        <Label Content="male" FontSize="22" Margin="5 0 0 0" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                        <Button Click="Gen1_Female_Click" Height="34" Width="34" Margin="20 6 0 0">
+                            <Button.Background>
+                                <ImageBrush x:Name="gen1_image2" ImageSource="Pictures\Checkbox2.png"></ImageBrush>
+                            </Button.Background>
+                        </Button>
+                        <Label Content="female" FontSize="22" Margin="5 0 0 0" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Label Content="Height" FontSize="24" Margin="-4 0 16 0" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                        <TextBox x:Name="feet_TextBox" PreviewTextInput="NumberValidationTextBox" Margin="0 7 0 0" Width="80" Height="34" VerticalAlignment="Center" HorizontalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="20"/>
+                        <Label Margin="0 6 0 0" Content="feet" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                        <TextBox x:Name="inches_TextBox" PreviewTextInput="NumberValidationTextBox" Margin="15 7 0 0" Width="80" Height="34" VerticalAlignment="Center" HorizontalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="20"/>
+                        <Label Margin="0 6 0 0" Content="inches" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Button Content="Calculate" Height="46" Background="#4c7b25" Width="180" Margin="-5 -15 18 0" Click="Calculate_US_Click" Foreground="WhiteSmoke" FontFamily="Arial Black" FontSize="20"/>
+                        <Button Background="#ababab" Content="Clear" Foreground="WhiteSmoke" FontFamily="Arial Black" FontSize="20" Height="46" Width="80" Margin="0 -15 0 0" Click="Clear_US_Click"/>
+                    </StackPanel>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Metric Units" FontSize="18" >
+                <Grid Background="#eeeeee">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="80"/>
+                        <RowDefinition Height="65"/>
+                        <RowDefinition Height="80"/>
+                        <RowDefinition Height="100" />
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Label Content="Age" FontSize="24" Margin="5 0 15 0" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                        <TextBox x:Name="Age_TextBox_Metric" Margin="0 7 0 0" PreviewTextInput="NumberValidationTextBox" Width="190" Height="34" VerticalAlignment="Center" HorizontalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="20"/>
+                        <Label Content="ages 2 - 80" FontSize="24" Margin="7 0 0 0" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Label Content="Gender" FontSize="24" Margin="-58 0 28 0" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                        <Button Click="Gen2_Male_Click" Height="34" Width="34" Margin="0 6 0 0">
+                            <Button.Background>
+                                <ImageBrush x:Name="gen2_image1" ImageSource="Pictures\Checkbox1.png"></ImageBrush>
+                            </Button.Background>
+                        </Button>
+                        <Label Content="male" FontSize="22" Margin="5 0 0 0" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                        <Button Click="Gen2_Female_Click" Height="34" Width="34" Margin="20 6 0 0">
+                            <Button.Background>
+                                <ImageBrush x:Name="gen2_image2" ImageSource="Pictures\Checkbox2.png"></ImageBrush>
+                            </Button.Background>
+                        </Button>
+                        <Label Content="female" FontSize="22" Margin="5 0 0 0" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Label Content="Height" FontSize="24" Margin="-31 0 16 0" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                        <TextBox x:Name="cm_TextBox" Margin="0 7 0 0" PreviewTextInput="NumberValidationTextBox" Width="230" Height="34" VerticalAlignment="Center" HorizontalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="20"/>
+                        <Label Margin="4 6 0 0" Content="cm" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                        
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Button Foreground="WhiteSmoke" FontFamily="Arial Black" FontSize="20" Content="Calculate" Background="#4c7b25" Height="46" Width="180" Margin="-5 -15 18 0" Click="Calculate_Metric_Click"/>
+                        <Button Background="#ababab" Content="Clear" Foreground="WhiteSmoke" FontFamily="Arial Black" FontSize="20" Height="46" Width="80" Margin="0 -15 0 0" Click="Clear_Metric_Click"/>
+                    </StackPanel>
+
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Grid Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="1"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="31"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="6" Background="Black"></Label>
+
+            <Label Background="#336699" Foreground="White" Grid.Row="1" Grid.Column="0" Content="Formula" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="28" FontFamily="Arial Rounded MT Bold"/>
+            <Label Background="#336699" Foreground="White" Grid.Row="1" Grid.Column="2" Content="Ideal Weight" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="28" FontFamily="Arial Rounded MT Bold"/>
+            
+            <Label Grid.Row="2" Grid.Column="0" Content="Robinson (1983)" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="22" FontFamily="Arial Rounded MT Bold"/>
+            <Label Grid.Row="3" Background="#eeeeee" Grid.Column="0" Content="Miller (1983)" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="22" FontFamily="Arial Rounded MT Bold"/>
+            <Label Grid.Row="4" Grid.Column="0" Content="Devine (1974)" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="22" FontFamily="Arial Rounded MT Bold"/>
+            <Label Grid.Row="5" Background="#eeeeee" Grid.Column="0" Content="Hamwi (1964)" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="22" FontFamily="Arial Rounded MT Bold"/>
+
+            <Label x:Name="Robinson_Label"  Grid.Row="2" Grid.Column="2" Content="" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="22" FontFamily="Arial Rounded MT Bold" Foreground="#FF007700"/>
+            <Label x:Name="Miller_Label" Grid.Row="3" Background="#eeeeee" Grid.Column="2" Content="" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="22" FontFamily="Arial Rounded MT Bold" Foreground="#FF007700"/>
+            <Label x:Name="Devine_Label" Grid.Row="4" Grid.Column="2" Content="" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="22" FontFamily="Arial Rounded MT Bold" Foreground="#FF007700"/>
+            <Label x:Name="Hamwi_Label" Grid.Row="5" Background="#eeeeee" Grid.Column="2" Content="" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="22" FontFamily="Arial Rounded MT Bold" Foreground="#FF007700"/>
+        </Grid>
+    </Grid>
+</Window>
