@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Minecraft_Enchanting_Table_Translator"
         mc:Ignorable="d"
-        Title="Its Enchanting Time" Height="900" Width="1500" WindowStartupLocation="CenterScreen">
+        Title="Its Enchanting Time" Height="800" Width="1400" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="30"/>
