@@ -1,3 +1,3 @@
 # Wpf Projects
 
-Projects I built as a beginner while learning C# and WPF.
+Beginner Projects i built using C# and WPF.
