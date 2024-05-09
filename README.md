@@ -1,5 +1,5 @@
 
 # Wpf Projects
 
-Intermediate Projects i built using Windows Presentation Foundation.
+More Projects i built using Wpf.
 
